@@ -14,9 +14,9 @@ Each article on The Guardian has a list of topics at the very bottom of the page
 
 ![Topics](https://i.imgur.com/WB2Rhkt.png)
 
-The bot collects all these tags in a database. The graph is created by setting each topic to be one node and two nodes are joint by an edge if they are covered simultaniously in an article - edge weight corresponds to how often articles are covered together.
+The bot collects all these tags in a database. The graph is created by setting each topic to be one node and two nodes are joined by an edge if they are covered simultaniously in an article - edge weight corresponds to how often topics are covered together.
 
 Graph visualisation is done in Gephi 0.92. 
 
-Node size corresponds to the amount of articles covering the topic, two nodes are closer the more often they are covered by the same articles.
+Node size corresponds to the amount of articles covering the topic. If two topics are often covered together then they will be closer together in the visualisation.
 
