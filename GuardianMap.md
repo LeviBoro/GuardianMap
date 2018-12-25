@@ -1,5 +1,6 @@
 # GuardianMap
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
 A python bot that scrapes through all *The Guardian* articles in a given time frame and then generates a *topic landscape*.
 
 Below you can see the outcome of scanning the last 12 months:
